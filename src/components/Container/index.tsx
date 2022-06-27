@@ -5,9 +5,9 @@ type Props = {
 
 const Container = ({ title, children }: Props) => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center">
+    <div className="min-h-screen flex flex-col justify-center items-center py-2">
       <span className="text-3xl font-bold first-letter:text-red-500">{title}</span>
-      <div className="p-4 w-screen md:w-1/2">{children}</div>
+      <div className="p-4 w-screen md:w-9/12 max-w-5xl">{children}</div>
     </div>
   );
 };

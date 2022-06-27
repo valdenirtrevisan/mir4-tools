@@ -7,7 +7,7 @@ type Props = HTMLProps<HTMLButtonElement> & {
 const Button = ({ children, ...props }: Props) => {
   return (
     <button
-      {...props} className="p-2 text-sm border rounded hover:text-gray-400 hover:border-gray-400 transition-colors">
+      {...props} className="p-2 text-sm border rounded hover:text-red-400 hover:border-red-400 transition-colors">
 
       {children}
     </button>
